@@ -1,0 +1,34 @@
+class pizza{
+  constructor(size,meatTopping,veggieTopping){
+    this.size=s;
+    this.meatTopping=mT;
+    this.veggieTopping=vT;
+    }
+    sizeCost(){
+      if(this.size=="S"| |this.size=="s"){
+        return 7.99;
+      }
+      else if(this.size=="M"){
+        return 9.99;
+      }
+      else if(this.size=="L"){
+        return 12.99
+      }
+      else if(this.size=="XL"){
+        return 15.99;
+      }
+    }
+  toppingCost(top){
+    if(this.top=meatTopping){
+      return meatTopping[meatTopping.length*0.99]
+    }
+    else if(this.top=veggieTopping){
+      return veggieTopping[vegTopping.length*0.50]
+    }
+    return toppingCost=this.meatTopping+this.veggieTopping;
+  }
+  price(){
+    return  this.sizeCost()+this.toppingCost("meatTopping"+"veggieTopping");
+  }
+
+}
